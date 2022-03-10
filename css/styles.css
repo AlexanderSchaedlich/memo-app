@@ -1,0 +1,153 @@
+#cards > div {
+  width: 50%;
+}
+#cards > div > div {
+  width: 100%;
+}
+.form40 {
+	max-width: 40% !important;
+}
+.inputWidth {
+	width: 50%;
+}
+.card-header, 
+.card-body {
+	width: 100%;
+}
+
+.jumbotron {
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  background-clip: inherit;
+}
+
+#userDeleteAccount {
+	cursor: pointer;
+}
+
+.adminFirstName, .adminLastName {
+	width:  135px;
+}
+
+.generatePassword {
+	cursor: pointer;
+}
+
+#userForgotPassword {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 991px) {
+	#cards > div  {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 1.2rem !important;
+	}
+
+	h6 {
+		font-size: 1.2rem !important;
+	}
+
+	h5 {
+		font-size: 1.5rem !important;
+	}
+
+	h4 {
+		font-size: 1.8rem !important;
+	}
+
+	h3 {
+		font-size: 2.3rem !important;
+	}
+
+	h2 {
+		font-size: 2.8rem !important;
+	}
+
+	h1 {
+		font-size: 3.5rem !important;
+	}
+
+	.form40 {
+		max-width: 100% !important;
+	}
+
+	#cards > div  {
+		width: 100%;
+	}
+
+	.inputWidth {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.buttonsParent {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.buttonsParent > button:nth-child(1) {
+		margin-bottom: 0.5rem;
+	}
+}
+
+/* Safari 7.1+ */
+_::-webkit-full-page-media, _:future, :root .safari_only {
+	@media only screen and (max-width: 1006px) {
+		#cards > div  {
+			width: 80%;
+		}
+	}
+
+	@media only screen and (max-width: 782px) {
+		#cards > div  {
+			width: 100%;
+		}
+	}
+
+	@media only screen and (max-width: 575px) {
+		.buttonsParent {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.buttonsParent > button:nth-child(1) {
+			margin-bottom: 0.5rem;
+		}
+	}
+}
+
+/* Safari 10.1+ */
+@media not all and (min-resolution:.001dpcm) { 
+	@media {
+		@media only screen and (max-width: 1006px) {
+			#cards > div  {
+				width: 80%;
+			}
+		}
+
+		@media only screen and (max-width: 782px) {
+			#cards > div  {
+				width: 100%;
+			}
+		}
+
+		@media only screen and (max-width: 575px) {
+			.buttonsParent {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.buttonsParent > button:nth-child(1) {
+				margin-bottom: 0.5rem;
+			}
+		}
+	}
+}
